@@ -7,7 +7,7 @@
         console.log("Iniciando auditoría de transacciones...");
         
         
-        for (let i = 0; i <= transacciones.length; i++) {
+        for (let i = 0; i < transacciones.length; i++) {
             let transaccion = transacciones[i];
         
         
