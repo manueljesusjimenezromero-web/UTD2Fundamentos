@@ -1,11 +1,12 @@
 let numeros = [1, 2, 3, 4];
+
 let suma = 0;
 
 for (let i = 0; i <= numeros.length; i++) {
+
     suma += numeros[i];
     
 }
-
 
 console.log("Suma total: "+suma );
 
@@ -13,12 +14,13 @@ En el for hay un <= recorriendo una vez mas como si hubiera 5 valores en el arra
 
 
 let numeros = [1, 2, 3, 4];
+
 let suma = 0;
 
 for (let i = 0; i < numeros.length; i++) {
+
     suma += numeros[i];
     
 }
-
 
 console.log("Suma total: "+suma );

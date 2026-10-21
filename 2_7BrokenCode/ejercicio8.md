@@ -3,7 +3,6 @@
 <html lang="es">
 <body>
   <button id="miBoton">Click me</button>
- 
   <script>
     const btn = document.getElementById("miBoton");
     btn.addEventListener("click", function() {
